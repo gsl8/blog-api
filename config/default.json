@@ -1,0 +1,20 @@
+{
+    "server": {
+      "port": 3000
+    },
+    "database": {
+      "mongoURI": "mongodb://localhost:27017/blog_api"
+    },
+    "jwt": {
+      "secret": "Zw+GVtnwuVyiMd+fQRA3/L8qesm7esxEf4LaweTCRVI=",
+      "expiresIn": "1d"
+    },
+    "pagination": {
+      "defaultLimit": 10,
+      "maxLimit": 50
+    },
+    "roles": {
+      "author": "author",
+      "admin": "admin"
+    }
+  }
